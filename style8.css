@@ -1,0 +1,56 @@
+.outer-circle{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    border: 1px solid black;
+}
+.inner-circle{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    background: linear-gradient(to top right, #1bdec2  0% 50%, #1bdec2 54%, #21c7ec  50% );
+    transform: translate(34%,33%);
+}
+a .fa-toolbox{
+    padding-left: 16px;
+    padding-top: 15px;
+}
+a .fa-user{
+    padding-left: 18px;
+    padding-top: 15px;
+}
+a .fa-location-dot{
+    padding-left: 19px;
+    padding-top: 15px;
+}
+ .fa-download{
+    padding-left: 18px;
+    padding-top: 15px;
+}
+h1{
+    padding-top: 50px;
+    text-align: center;
+    font-size: large;
+}
+p{
+    font-size: small;
+}
+.row [class*="col"]:hover .inner-circle{
+    width: 75px;
+    height: 75px;
+    background: linear-gradient(to top right, black 0% 50%, #1bdec2 54%, black  50% );
+    padding-left: 10px;
+    padding-top: 10px;
+    transform: translate(15%,16%);
+    transition: 1s;
+    color: white;
+}
+
+.loc, .tool, .user, .down p{
+    
+    margin-left: 15px;
+}
+.row{
+    padding-top: 50px;
+}
+
